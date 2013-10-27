@@ -10,17 +10,18 @@ def read(fname):
 
 setup(
     name = "bitme",
-    version = "0.0.1",
+    version = "0.0.5",
     author = "Erik Gregg",
     author_email = "ralree@gmail.com",
     description = ("Bitme bitcoin exchange API"),
-    license = "MIT",
+    license = "LICENSE",
     keywords = "bitme bitcoin exchange api trade",
     url = "https://github.com/hank/bitme-python",
     packages=['bitme'],
-    long_description=read('README.md'),
+    long_description=read('README'),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "License :: OSI Approved :: MIT License",
     ],
+    install_requires = ['requests'],
 )
