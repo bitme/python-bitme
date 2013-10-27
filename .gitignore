@@ -1,0 +1,5 @@
+APIKEY
+APISECRET
+*.pyc
+*.swp
+*.swo
