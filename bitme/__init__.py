@@ -1,1 +1,1 @@
-import * from bitme
+from bitme import *
