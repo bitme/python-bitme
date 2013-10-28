@@ -20,7 +20,7 @@ setup(
     packages=['bitme'],
     long_description=read('README'),
     classifiers=[
-        "Development Status :: 2 - Pre-Alpha",
+        "Development Status :: 3 - Alpha",
         "License :: OSI Approved :: MIT License",
     ],
     install_requires = ['requests'],
