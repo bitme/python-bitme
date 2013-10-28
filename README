@@ -5,6 +5,10 @@ Bitme Python API
 Requirements
     requests library (pip install requests)
 
+Docs
+http://pythonhosted.org/bitme/
+
+
 Usage
 
 Take a look at example.py.  This shows how to use the accounts API call to
@@ -18,3 +22,5 @@ files (to prevent it getting into committed code).
      {u'currency_name': u'Litecoin', u'available': u'0.00000000000000000000', 
       u'currency_cd': u'LTC', u'balance': u'95.00000000000000000000'}]}
 
+Links
+https://pypi.python.org/pypi/bitme
