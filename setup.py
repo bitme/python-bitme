@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name = "bitme",
-    version = "0.0.5",
+    version = "0.0.6",
     author = "Erik Gregg",
     author_email = "ralree@gmail.com",
     description = ("Bitme bitcoin exchange API"),
