@@ -66,7 +66,7 @@ class BitmeAPI:
         return self._query('/bitcoin-address', auth=True)
 
     def create_order(self, order_type_cd, quantity, rate, 
-                     currency_pair='LTCBTC'):
+                     currency_pair='BTCLTC'):
         """
         Create a new order
 
@@ -131,7 +131,7 @@ class BitmeAPI:
         """
         return self._query('/order/%s' % (uuid,), auth=True)
 
-    def get_orderbook(self, currency_pair='LTCBTC'):
+    def get_orderbook(self, currency_pair='BTCLTC'):
         """
         Gets the current full orderbook for a given currency pair.
 
@@ -139,7 +139,7 @@ class BitmeAPI:
         """
         return self._query('/orderbook/%s' % (currency_pair,))
 
-    def get_compat_orderbook(self, currency_pair='LTCBTC'):
+    def get_compat_orderbook(self, currency_pair='BTCLTC'):
         """
         Gets the current Bitcoincharts-compatible orderbook for a given
         currency pair.
@@ -148,7 +148,7 @@ class BitmeAPI:
         """
         return self._query('/compat/orderbook/%s' % (currency_pair,))
 
-    def get_compat_trades(self, currency_pair='LTCBTC'):
+    def get_compat_trades(self, currency_pair='BTCLTC'):
         """
         Gets the current Bitcoincharts-compatible trade array for a given
         currency pair.
